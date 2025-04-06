@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.navbar .domain a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Doto";
+  color: white;
+  text-decoration: none;
+  user-select: none;
+  padding-right: 1rem;
+}
+
+.navbar .name a {
+  font-size: 1rem;
+  color: white;
+  font-family: "Urbanist";
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.vertical-line {
+  border-left: 2px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: dashed;
+  border-color: #333;
+  height: 2rem;
+}
